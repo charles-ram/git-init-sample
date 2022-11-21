@@ -1,37 +1,45 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace ;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background: #f6e3ba;
+    text-align: center;
+    border-radius: 20px;
+    color: #cc9966;
 }
 
-body {
+header {
+    position: fixed;
     display: block;
-    position: relative;
-    text-align: center;
+    z-index: 2;
+    width: 100%;
+    padding-top: 30px;
+    top: 0px;
 }
 
-main {
-    padding-top: 100px;
+.spacer {
+    width: 100%;
+    height: 200px;
 }
 
-h1,
-h2,
-h3 {
-    text-align: center;
+nav {
+    padding: 20px;
+    margin: 10px;
+}
+
+li {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 img{
     display: block;
     position: relative;
-    margin: 10px auto;
-    border: 5px solid #953553;
-}
-
-header {
-    position: fixed;
-    z-index: 2;
-    width: 100%;
+    margin: 30px auto;
+    border: 15px solid #cc9966;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -41,29 +49,101 @@ footer {
     width: 100%;
 }
 
-section {
-    position: relative;
-    margin: 20px;
-}
-
-label {
-    display: block;
-}
-
-.navigation-bar {
-    text-align: right;
-    right: 40px;
-}
-
-.color-border-design {
-    background-color: #2a2b2dff;
-    border: 10px solid #953553;
-    color: #2da8d8ff;
-}
-
 #list-items {
     display: inline;
     left: 0px;
     font-size: 40;
-    border: 2px solid #953553;
+    text-decoration: none;
 }
+
+.vanilla {
+    color: #fbfffe;
+    border: 10px solid #fbfffe;
+}
+
+.strawberry {
+    color: #efadb9;
+    border: 10px solid #efadb9;
+}
+
+.chocolate {
+    color: #774b3b;
+    border: 10px solid #774b3b;
+}
+
+.title {
+    color: #b37a4c;
+    padding: 20px;
+}
+
+.contact {
+    color: #b37a4c;
+    border: 10px solid #cc9966;
+}
+
+.image-caption {
+    color: #b37a4c;
+    margin: 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.image-paragraph {
+    color: #b37a4c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+    margin-bottom: 400px;
+ }
+
+ p {
+    padding: 30px;
+ }
+
+ .inspiration-section {
+    position: relative;
+    display: block;
+ }
+
+ .vanilla-section {
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #cc9966;
+    border: 15px solid #fbfffe;
+    margin-bottom: 10px;
+    margin-top: 600px;
+ }
+
+ .strawberry-section {
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #cc9966;
+    border: 15px solid #efadb9;
+    margin-bottom: 10px;
+ }
+
+ .chocolate-section {
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #cc9966;
+    border: 15px solid #774b3b;
+    margin-bottom: 600px;
+ }
+
+.footer-header {
+    margin: 10px;
+}
+
+ footer {
+    display: block;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: 30px;
+ }
+
+ .flavor-menu {
+    margin-bottom: 100px;
+ }
